@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Outfit", system-ui, sans-serif;
+  --font-body: "IBM Plex Mono", "SF Mono", monospace;
+  --bg: #f5f4f0;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: #1a1a1a;
+    font-size: 13px;
+  }
+
+  input, textarea, select {
+    font-size: 16px;
+    font-family: var(--font-body);
+  }
+}
+
+::selection {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5c3be;
+  border-radius: 999px;
+}
