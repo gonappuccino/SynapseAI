@@ -2,6 +2,10 @@
 
 **AI-powered Adaptive Learning OS** — Upload any document, and SynapseAI extracts key concepts, maps prerequisite relationships into a knowledge graph, and guides you through a personalized learning loop.
 
+## Demo
+
+[![Watch the SynapseAI demo](https://img.youtube.com/vi/ixXvljEhyPo/0.jpg)](https://www.youtube.com/watch?v=ixXvljEhyPo)
+
 ## What it does
 
 1. **Upload** — Drop a PDF, image, or audio file. Gemini extracts concepts and builds a structured knowledge graph.
